@@ -10,33 +10,35 @@ date and will add it to your spotify account by creating new playlist.
 1. Sign in / Sign up to Spotify Dashboard
 https://developer.spotify.com/dashboard/login
 2. Create new app
-3. edit settings set redirect url and website as **http://example.com**
+3. edit settings > set redirect url and website to **http://example.com**
 4. save
 ```
 ## environment setup for linux
 ```
-1. open terminal
-2. cd spotify-automation
-3. python3 -m venv venv
-4. source venv/bin/activate
-5. pip install -r requirements.txt
-6. copy your client id and client app from https://developer.spotify.com/dashboard/applications
-7. paste them to main.py
-8. remove line 6 from environ import environ
+1. git clone git@github.com:viralRupani/spotify-automation.git
+2. open terminal
+3. cd spotify-automation
+4. python3 -m venv venv
+5. source venv/bin/activate
+6. pip install -r requirements.txt
+7. copy your client id and client app from https://developer.spotify.com/dashboard/applications
+8. paste them to main.py
+9. remove line 6 from environ import environ
 ```
 
 ## environment setup for windows
 ```
-1. open terminal
-2. cd spotify-automation
-3. python -m venv venv
-4. cd venv/scripts
-5. activate
-6. cd ../..
-7. pip install -r requirements.txt
-8. copy your client id and client app from https://developer.spotify.com/dashboard/applications
-9. paste them to main.py
-10. remove line 6 from environ import environ
+1. git clone git@github.com:viralRupani/spotify-automation.git
+2. open terminal
+3. cd spotify-automation
+4. python -m venv venv
+5. cd venv/scripts
+6. activate
+7. cd ../..
+8. pip install -r requirements.txt
+9. copy your client id and client app from https://developer.spotify.com/dashboard/applications
+10. paste them to main.py
+11. remove line 6 from environ import environ
 ```
 
 ``
