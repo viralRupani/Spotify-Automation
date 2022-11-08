@@ -10,7 +10,7 @@ SPOTIFY_CLIENT_SECRET = environ['SPOTIFY_CLIENT_SECRET']
 REDIRECT_URI = 'http://example.com'
 
 date = input('Enter date in following formate (YYYY-MM-DD) ex:(2004-04-23):')
-os.system('clear')
+os.system('cls' if os.name == 'nt' else 'clear')
 
 response = requests.get(f'https://www.billboard.com/charts/hot-100/{date}/')
 soup = BeautifulSoup(response.text, 'html.parser')
@@ -41,7 +41,7 @@ for song in songs:
     except IndexError:
         print(f'We were unable to find ({song})...skipped!')
 
-os.system('clear')
+os.system('cls' if os.name == 'nt' else 'clear')
 print(f'Total song found {len(songs_uri)}')
 
 new_playlist = sp.user_playlist_create(
