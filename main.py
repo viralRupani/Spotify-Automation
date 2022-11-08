@@ -45,7 +45,7 @@ os.system('cls' if os.name == 'nt' else 'clear')
 print(f'Total song found {len(songs_uri)}')
 
 new_playlist = sp.user_playlist_create(
-    user='kjs0jalvbdwlezui4u52jue2c',
+    user=sp.current_user()['id'],
     name=f'{date} Billboard',
     public=False,
 )
