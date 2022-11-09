@@ -15,8 +15,8 @@ https://developer.spotify.com/dashboard/login
 ```
 ## environment setup for linux
 ```
-1. git clone git@github.com:viralRupani/spotify-automation.git
-2. open terminal
+1. open cmd
+2. git clone git@github.com:viralRupani/spotify-automation.git
 3. cd spotify-automation
 4. python3 -m venv venv
 5. source venv/bin/activate
@@ -28,8 +28,8 @@ https://developer.spotify.com/dashboard/login
 
 ## environment setup for windows
 ```
-1. git clone git@github.com:viralRupani/spotify-automation.git
-2. open terminal
+1. open terminal
+2. git clone git@github.com:viralRupani/spotify-automation.git
 3. cd spotify-automation
 4. python -m venv venv
 5. cd venv/scripts
